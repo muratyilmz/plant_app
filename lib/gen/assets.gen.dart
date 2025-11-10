@@ -14,11 +14,71 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart' as _svg;
 import 'package:vector_graphics/vector_graphics.dart' as _vg;
 
+class $AssetsIconsGen {
+  const $AssetsIconsGen();
+
+  /// File path: assets/icons/fast.svg
+  SvgGenImage get fast => const SvgGenImage('assets/icons/fast.svg');
+
+  /// File path: assets/icons/identify-icon.svg
+  SvgGenImage get identifyIcon =>
+      const SvgGenImage('assets/icons/identify-icon.svg');
+
+  /// File path: assets/icons/unlimited.svg
+  SvgGenImage get unlimited => const SvgGenImage('assets/icons/unlimited.svg');
+
+  /// List of all assets
+  List<SvgGenImage> get values => [fast, identifyIcon, unlimited];
+}
+
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/background.png
+  AssetGenImage get background =>
+      const AssetGenImage('assets/images/background.png');
+
   /// File path: assets/images/bg_img.png
   AssetGenImage get bgImg => const AssetGenImage('assets/images/bg_img.png');
+
+  /// File path: assets/images/get_plant_care_guides.svg
+  SvgGenImage get getPlantCareGuides =>
+      const SvgGenImage('assets/images/get_plant_care_guides.svg');
+
+  /// File path: assets/images/home_bg.png
+  AssetGenImage get homeBg => const AssetGenImage('assets/images/home_bg.png');
+
+  /// File path: assets/images/paywall_image.png
+  AssetGenImage get paywallImage =>
+      const AssetGenImage('assets/images/paywall_image.png');
+
+  /// File path: assets/images/photo_to_identify_title.png
+  AssetGenImage get photoToIdentifyTitle =>
+      const AssetGenImage('assets/images/photo_to_identify_title.png');
+
+  /// File path: assets/images/plant_detail_onboarding.png
+  AssetGenImage get plantDetailOnboarding =>
+      const AssetGenImage('assets/images/plant_detail_onboarding.png');
+
+  /// File path: assets/images/plant_detail_onboarding_img.svg
+  SvgGenImage get plantDetailOnboardingImg =>
+      const SvgGenImage('assets/images/plant_detail_onboarding_img.svg');
+
+  /// File path: assets/images/plant_in_mobile.png
+  AssetGenImage get plantInMobile =>
+      const AssetGenImage('assets/images/plant_in_mobile.png');
+
+  /// File path: assets/images/plant_with_mobile.png
+  AssetGenImage get plantWithMobile =>
+      const AssetGenImage('assets/images/plant_with_mobile.png');
+
+  /// File path: assets/images/premium_box.png
+  AssetGenImage get premiumBox =>
+      const AssetGenImage('assets/images/premium_box.png');
+
+  /// File path: assets/images/take_a_photo_title.svg
+  SvgGenImage get takeAPhotoTitle =>
+      const SvgGenImage('assets/images/take_a_photo_title.svg');
 
   /// File path: assets/images/welcome_onboarding_plant.png
   AssetGenImage get welcomeOnboardingPlant =>
@@ -30,7 +90,18 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<dynamic> get values => [
+    background,
     bgImg,
+    getPlantCareGuides,
+    homeBg,
+    paywallImage,
+    photoToIdentifyTitle,
+    plantDetailOnboarding,
+    plantDetailOnboardingImg,
+    plantInMobile,
+    plantWithMobile,
+    premiumBox,
+    takeAPhotoTitle,
     welcomeOnboardingPlant,
     welcomeToPlantText,
   ];
@@ -39,6 +110,7 @@ class $AssetsImagesGen {
 class Assets {
   const Assets._();
 
+  static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 

@@ -23,6 +23,7 @@ dependencies:
   json_annotation: ^4.8.1
   shared_preferences: ^2.5.3
   flutter_svg: ^2.2.2
+  persistent_bottom_nav_bar_v2: ^6.2.0
 
 dev_dependencies:
   auto_route_generator: ^7.3.2
@@ -42,3 +43,4 @@ flutter:
   generate: true
   assets:
     - assets/images/
+    - assets/icons/
