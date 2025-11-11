@@ -18,7 +18,7 @@
 ## 📦 Setup
 
 # 1️⃣ Clone the repository
-git clone https://github.com/<user_name>/plant_app.git
+git clone https://github.com/muratyilmz/plant_app.git
 
 # 2️⃣ Navigate to the project directory
 cd plant_app
